@@ -80,7 +80,6 @@ func main() {
 
 	//var a, b, c, d = 1, 3, 5, 7
 	const PI = 3.14
-	// https://www.w3schools.com/go/go_constants.php#:~:text=Multiple%20Constants%20Declaration
 	var (
 		a int
 		b int    = 1
@@ -108,7 +107,6 @@ func main() {
 	var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}
 	fmt.Println(cars)
 
-	// https://www.w3schools.com/go/go_arrays.php#:~:text=With%20the%20%3A%3D%20sign%3A-,Syntax,-array_name%20%3A%3D%20%5Blength%5Ddatatype
 	// array_name := [length]datatype{values} // here length is defined
 	// array_name := [...]datatype{values} // here length is inferred
 
